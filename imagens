@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Loja Online</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    h1 { text-align: center; }
+    .catalogo { display: flex; flex-wrap: wrap; justify-content: center; }
+    .produto { border: 1px solid #ccc; background: #fff; padding: 15px; margin: 10px; width: 250px; text-align: center; }
+    .produto img { width: 100%; height: auto; }
+    .pix img { width: 200px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo à Minha Loja</h1>
+  <div class="catalogo">
+    <div class="produto">
+      <img src="images/fones.jpg" alt="Fones de ouvido sem fio">
+      <h2>Fones de ouvido sem fio</h2>
+      <p>Preço: R$ 199,90</p>
+      <div class="pix">
+        <p>Pague com Pix:</p>
+        <img src="images/qrcode_fones.png" alt="QR Code Pix Fones">
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="images/relogio.jpg" alt="Relógio Fitness">
+      <h2>Relógio Fitness</h2>
+      <p>Preço: R$ 149,90</p>
+      <div class="pix">
+        <p>Pague com Pix:</p>
+        <img src="images/qrcode_relogio.png" alt="QR Code Pix Relógio">
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="images/scooter.jpg" alt="Scooter Elétrica">
+      <h2>Scooter Elétrica</h2>
+      <p>Preço: R$ 3.499,00</p>
+      <div class="pix">
+        <p>Pague com Pix:</p>
+        <img src="images/qrcode_scooter.png" alt="QR Code Pix Scooter">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
